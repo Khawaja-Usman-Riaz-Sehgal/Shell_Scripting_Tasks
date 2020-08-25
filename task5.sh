@@ -8,7 +8,7 @@ echo "3...Print the name of the log, if run-time is less than 9.5hrs."
 
 
 tar xf logs.tgz
-mv -t logs xI3ss_recon-all.log xI443s_recon-all.log xIops_recon-all.log xIosss_recon-all.log gcutError_recon-all.log
+mv -t ~/logs xI3ss_recon-all.log xI443s_recon-all.log xIops_recon-all.log xIosss_recon-all.log gcutError_recon-all.log
 cd ~/logs
 fixed_runtime=9.50
 echo 
