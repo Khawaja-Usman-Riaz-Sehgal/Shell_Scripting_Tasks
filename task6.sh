@@ -14,7 +14,7 @@ echo
 
 
 
-cut -b 18-20 extra.txt>unsorted.txt
+cut -b 18-20 task6.txt>unsorted.txt
 sort unsorted.txt>sorted.txt
 wc -l < sorted.txt > /dev/null 2>&1
 
